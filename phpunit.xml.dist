@@ -23,7 +23,12 @@
         <directory suffix=".php">tests</directory>
       </testsuite>
     </testsuites>
-
+    <logging>
+        <log type="coverage-html" target="build/coverage"
+             title="Unit coverage" charset="UTF-8" yui="true"
+             highlight="true" lowUpperBound="80" highLowerBound="95"/>
+        <log type="coverage-clover" target="build/logs/clover.xml"/>
+    </logging>
     <filter>
       <whitelist addUncoveredFilesFromWhitelist="true">
       </whitelist>
