@@ -1,8 +1,7 @@
 # Clamp() for PHP
 PHP mathematical "Clamp" function. It clamps a variable between two numbers. Simple.
 
-[![Build Status](https://travis-ci.org/matthewbaggett/php-clamp.svg?branch=master)](https://travis-ci.org/matthewbaggett/php-clamp)
-
+[![Build Status](https://travis-ci.org/matthewbaggett/php-clamp.svg?branch=v1.0)](https://travis-ci.org/matthewbaggett/php-clamp)
 ## Usage:
 ```php
     $value = clamp(
