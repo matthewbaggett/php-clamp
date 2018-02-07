@@ -1,0 +1,15 @@
+{
+    "name": "matthewbaggett/clamp",
+    "description": "PHP clamp function to clamp a number between a minimum and a maximum.",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Matthew Baggett",
+            "email": "matthew@baggett.me"
+        }
+    ],
+    "autoload": {
+        "files": ["src/Clamp.php"]
+    }
+}
